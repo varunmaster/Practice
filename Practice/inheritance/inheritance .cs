@@ -14,7 +14,7 @@ namespace inheritance
             cat.speak("Meow");
             Console.WriteLine("{0} has {1} legs, {2} eyes, and {3} coat",cat.getName(cat),cat.getNumLegs(cat), cat.getNumEyes(cat), cat.getColor(cat));
             Animal dog = new Animal(4, 2, "Black", "George");
-            dog.speak("Woof nigga");
+            dog.speak("Woof");
             Console.WriteLine("{0} has {1} legs, {2} eyes, and {3} coat", dog.getName(dog), dog.getNumLegs(dog), dog.getNumEyes(dog), dog.getColor(dog));
             Console.ReadLine();
         }
